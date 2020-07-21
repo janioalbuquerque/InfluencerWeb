@@ -1,0 +1,136 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+nav.menu {
+  background-color: #1B253B;
+}
+
+nav a span {
+  color: #7CCBFC;
+}
+
+nav .sidenav{
+  background-color: #1B253B;
+  color: white;
+
+}
+
+nav .sidenav li a{
+  color: white;
+  font-weight: bold;
+
+}
+
+section:nth-of-type(1)  {
+  position: relative;
+  background-image: url('../img/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 15px 0;
+  min-height: 700px;
+}
+
+.layer:nth-of-type(1) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 3;
+}
+
+.section .row .carousel{
+ 
+  min-height: 550px;
+  
+
+}
+
+.section .row h1, .h1 {
+
+  color: #162A43;
+
+  margin-top: 100px;
+  
+}
+
+.section .row h4 {
+  color: rgb(31, 47, 71);
+  padding: 0;
+  font-weight: lighter;
+  
+}
+
+.layer2{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  z-index: 1;
+}
+
+section:nth-of-type(3)  {
+ 
+  position: relative;
+  background-image: url('../img/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 15px 0;
+  min-height: 700px;
+}
+
+form .row .input-field input.input-item{
+
+  border: 1px solid black; 
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.5); 
+  margin-top: 10px;
+}
+
+textarea{
+  min-height: 80px; 
+  margin-top: -20px;
+  border: 1px solid black; 
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.5); 
+  
+}
+
+::-webkit-input-placeholder {
+   color: rgba(120,120,120,1);
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+@media screen and (max-width: 860px) {
+  .boneca img{
+    margin-left: 60px;
+  }
+
+   div.card-unic{
+    left: 0px;
+   }
+}
+
+
+
